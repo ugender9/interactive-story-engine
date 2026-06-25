@@ -1,0 +1,67 @@
+﻿# ── Python / FastAPI backend ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# mypy / ruff / pyright
+.mypy_cache/
+.ruff_cache/
+pyrightconfig.json
+
+# ── Next.js / Node frontend ───────────────────────────────────
+node_modules/
+.next/
+out/
+.vercel/
+
+# Next.js env files
+story-engine-frontend/.env.local
+story-engine-frontend/.env.development.local
+story-engine-frontend/.env.test.local
+story-engine-frontend/.env.production.local
+
+# npm / yarn / pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# ── OS / Editor ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Misc ──────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
